@@ -71,7 +71,7 @@ public class Solution
         {
             this.name = name;
         }
-
+        // обязательно такой порядок конструктора
         Cat(String name, Cat papa, Cat mama)
         {
             this.name = name;
